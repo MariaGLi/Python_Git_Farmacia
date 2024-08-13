@@ -41,7 +41,7 @@ while sel!=4:
                 Cont=0
                 for g in medicamento:
                     Cont+=1
-                    print(Cont,"." g["nombre"])
+                    print(Cont,".", g["nombre"])
 
                 comp=str(input("Ingrese el nombre del producto a vender: \n"))
                 for m in medicamento:
